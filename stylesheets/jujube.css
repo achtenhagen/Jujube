@@ -1,0 +1,281 @@
+#header{
+	position: fixed;
+	background-color:#cdeb8e;
+	margin-left:0px;
+	margin-top:0px;
+	z-index:1;
+	min-width: 100%;
+	text-align: center;
+}
+#footer{
+  	background: url(../images/footer.png);
+	margin-left:0px;
+	margin-top:0px;
+	min-width: 100%;
+}
+
+body.palm-default {
+	background-color:#DAEAB9;
+	/*color:#8E8E8E;*/
+}
+
+.palm-button,
+#palm-dialog-box .palm-button {
+  clear: both;
+  margin: 5px 6px 5px 6px;
+  height: 52px;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  text-transform: none;
+  color: #3E3C3D;
+  line-height: 52px;
+  background: none;
+  border-width: 0 17px;
+  -webkit-box-sizing: border-box;
+  -webkit-border-image: url(../images/palm-button-flat-light.png) 0 17 104 17 repeat repeat;
+}
+
+
+.palm-button {
+  margin: 3px 0 0 0;
+}
+
+.palm-button.selected.primary,
+.palm-button.selected {
+  -webkit-border-image: url(../images/palm-button-flat-light.png) 52 17 52 17 repeat repeat;
+}
+
+.palm-button.disabled.primary,
+.palm-button.disabled {
+  -webkit-border-image: url(../images/palm-button-flat-light.png) 104 17 0 17 repeat repeat;
+}
+
+.album{
+	width: 80px;
+	height: 80px;
+	margin-top:7px;
+	margin-left:-6px;
+}
+
+.albumDialog{
+	width: 80px;
+	height: 80px;
+	margin-top:4px;
+	margin-left:-6px;
+}
+
+.album-icon-container {
+    height: 0px;
+    margin-top: 0px;	
+} 
+
+#palm-dialog-box .palm-button {
+  margin: 3px 0 0 0;
+}
+
+.palm-button.selected.primary,
+.palm-button.selected,
+#palm-dialog-box .palm-button.selected.primary,
+#palm-dialog-box .palm-button.selected {
+  -webkit-border-image: url(../images/palm-button-flat-light.png) 52 17 52 17 repeat repeat;
+}
+
+.palm-button.disabled.primary,
+.palm-button.disabled,
+#palm-dialog-box .palm-button.disabled.primary,
+#palm-dialog-box .palm-button.disabled {
+  -webkit-border-image: url(../images/palm-button-flat-light.png) 104 17 0 17 repeat repeat;
+}
+
+.palm-button.negative,
+#palm-dialog-box .palm-button.negative {
+  color: #3E3C3D;
+  -webkit-border-image: url(../images/palm-button-negative.png) 0 17 104 17 repeat repeat;
+}
+
+.palm-button.negative.selected,
+#palm-dialog-box .palm-button.negative.selected {
+  -webkit-border-image: url(../images/palm-button-negative.png) 52 17 52 17 repeat repeat;
+}
+
+.palm-button.negative.disabled,
+#palm-dialog-box .palm-button.negative.disabled {
+  -webkit-border-image: url(../images/palm-button-negative.png) 104 17 0 17 repeat repeat;
+}
+
+.palm-button.affirmative,
+#palm-dialog-box .palm-button.affirmative {
+  color: #3E3C3D;
+  -webkit-border-image: url(../images/palm-button-affirmative.png) 0 17 104 17 repeat repeat;
+}
+
+.palm-button.affirmative.selected,
+#palm-dialog-box .palm-button.affirmative.selected {
+  -webkit-border-image: url(../images/palm-button-affirmative.png) 52 17 52 17 repeat repeat;
+}
+
+.palm-button.affirmative.disabled,
+#palm-dialog-box .palm-button.affirmative.disabled {
+  -webkit-border-image: url(../images/palm-button-affirmative.png) 104 17 0 17 repeat repeat;
+}
+
+.hint-text,
+.textfield-group .hint-text,
+.multiline-hint-text {
+  font-weight: normal;
+  color: #3E3C3D;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 1px;
+  padding-right: 2px;
+  z-index: 1000;
+  -webkit-user-select: none;
+}
+
+.focused .hint-text,
+.textfield-group.focused .hint-text,
+.focused .multiline-hint-text {
+  color: #898989;
+}
+
+.toggle-text {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #FFFFFF;
+  text-transform: none;
+  text-shadow: #888 0px 1px 0px;
+}
+
+.palm-group-title {
+  /*margin: -40px -18px 0 -18px;*/
+
+  padding: 0px 0 14px 12px;
+  text-transform: none;
+  font-size: 16px;
+  color: #4D544D;
+  text-shadow: #646454 0px 1px 0px;
+  font-weight: bold;
+  height: 26px;
+  vertical-align: middle;
+  line-height: 26px;
+  -webkit-user-select: none;
+}
+
+.palm-radiobutton {
+  clear: both;
+  margin: 10px 4px 10px 4px;
+  height: 50px;
+  min-width: 312px;
+}
+
+.palm-radiobutton div {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  text-transform: none;
+  color: #555555;
+  vertical-align: middle;
+  line-height: 50px;
+  -webkit-user-select: none;
+  height: 50px;
+  display: block;
+  border-width: 0 15px 0 15px;
+  -webkit-border-image: url(../images/radiobutton-middle.png) 0 15 100 15 repeat repeat;
+  -webkit-box-sizing: border-box;
+}
+
+.palm-radiobutton div.first {
+  -webkit-border-image: url(../images/radiobutton-first.png) 0 15 100 15 repeat repeat;
+}
+
+.palm-radiobutton div.last {
+  -webkit-border-image: url(../images/radiobutton-last.png) 0 15 100 15 repeat repeat;
+}
+
+.palm-radiobutton div.selected {
+  color: white;
+  font-weight: bold;
+  -webkit-border-image: url(../images/radiobutton-middle.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton div.first.selected {
+  -webkit-border-image: url(../images/radiobutton-first.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton div.last.selected {
+  -webkit-border-image: url(../images/radiobutton-last.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton.two div {
+  width: 150px;
+}
+
+.palm-radiobutton.one div {
+  width: 150px;
+}
+
+.palm-scrim {
+  background: url(../images/scrim.png) fixed 0 0 repeat-x;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 98000;
+  text-align: center;
+}
+
+.palm-scrim.submenu-popup {
+  z-index: 199400;
+}
+
+.palm-scrim.app-menu {
+  z-index: 199000;
+}
+
+.palm-scrim.picker-popup {
+  z-index: 90000;
+}
+
+.palm-scrim.dialog {
+  z-index: 98000;
+}
+
+.palm-scrim.menu-panel {
+  z-index: 19000;
+}
+
+.label.mv-picker-label,
+.palm-row .label {
+  float: right;
+  color: #1f75bf;
+  text-shadow: #ffffff 0px 1px 0px;
+  font-size: 14px;
+  margin: 18px 12px 0 0;
+  text-transform: none;
+}
+
+.toggle-button.true {
+  background: url(../images/header-toggle-on.png);
+}
+
+.palm-row.palm-reorder-element {   
+  background: none;
+  border-width: 24px 20px;
+  -webkit-border-image: url(../images/palm-row-dragging.png) 24 20 24 20 repeat repeat;
+}
+.palm-row.palm-reorder-element {   
+  background: none;
+  border-width: 24px 20px;
+  -webkit-border-image: url(../images/palm-row-dragging.png) 24 20 24 20 repeat repeat;
+}
+
+.palm-row.palm-delete-element {
+  background: none;
+  border-width: 24px 20px;
+  -webkit-border-image: url(../images/palm-row-dragging.png) 24 20 24 20 repeat repeat;
+}

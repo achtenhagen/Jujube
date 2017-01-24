@@ -1,0 +1,38 @@
+<div id="footer" style="position:fixed;z-index:1;height:66px;max-height:66px;">
+<center>
+<span style="font-size:32px;color:#F1F1F1;margin:0px;padding:0px;"><img src="images/settings.png" style="margin-top:10px;"></img></span>
+<div style="font-size:12px;color:#F1F1F1;margin:-7px;padding:0px;">Settings for <span id="user"></span></div>
+</center>
+</div>
+<br /><br /><div style="margin-top:25px;"></div>
+<center>
+<div class="palm-group">
+    <div class="palm-group-title" style="color:#F1F1F1;">General Settings</div>
+    <div class="palm-list">
+    		<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ToggleButton" id="exclude-toggle"></div>
+                    <div class="title left" style="color: #4D544D;">Exclude Songs</div>
+					<div class="palm-row-wrapper">
+                    <div class="title left" style="color: #4D544D;font-size:16px;">The option above will exclude songs you have saved to playlists from future search results.
+					</div>
+				</div>
+				</div>
+			</div> 
+			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ToggleButton" id="location-toggle"></div>
+                    <div class="title left" style="color: #4D544D;">Location Services</div>
+				</div>
+				<div class="palm-row-wrapper">
+                    <div class="title left" style="color: #4D544D;font-size:16px;">Turning on Location Services helps others see what kind of music is mostly listened to in your area.
+					This data is NOT sent periodically, it is sent whenever you tag a song or find an accurate suggestion. Your location is recorded by the state in which you live in,
+					NOT your full address.
+					</div>
+				</div>	
+			</div> 	
+	</div>
+</div>	
+<div id="resetBtn" class="palm-button negative" style="text-align:center;width:300px;" x-mojo-touch-feedback="momentary">Reset Profile</div>
+<div id="cancelBtn" class="palm-button" style="text-align:center;width:300px;" x-mojo-touch-feedback="momentary">Close</div>
+</center>

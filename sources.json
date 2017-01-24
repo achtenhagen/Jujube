@@ -1,0 +1,51 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "search",
+        "source": "app/assistants/search-assistant.js"
+    },
+    {
+        "scenes": "prefs",
+        "source": "app/assistants/prefs-assistant.js"
+    },
+    {
+        "scenes": "playlists",
+        "source": "app/assistants/playlists-assistant.js"
+    },
+    {
+        "scenes": "playlist-songs",
+        "source": "app/assistants/playlist-songs-assistant.js"
+    },
+    {
+        "scenes": "select-playlist",
+        "source": "app/assistants/select-playlist-assistant.js"
+    },
+    {
+        "scenes": "web-view",
+        "source": "app/assistants/web-view-assistant.js"
+    },
+    {
+        "scenes": "similar-songs",
+        "source": "app/assistants/similar-songs-assistant.js"
+    },
+    {
+        "scenes": "artist-search",
+        "source": "app/assistants/artist-search-assistant.js"
+    },
+    {
+        "scenes": "artist-songs",
+        "source": "app/assistants/artist-songs-assistant.js"
+    },
+    {
+        "scenes": "add-song",
+        "source": "app/assistants/add-song-assistant.js"
+    },
+    {
+        "scenes": "tag-search",
+        "source": "app/assistants/tag-search-assistant.js"
+    }
+]

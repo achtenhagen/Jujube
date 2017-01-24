@@ -1,0 +1,9 @@
+{
+	"id": "com.fioware.jujubemusic",
+	"version": "1.0.1",
+	"vendor": "Fioware",
+	"type": "web",
+	"main": "index.html",
+	"title": "Jujube Music",
+	"icon": "icon.png"
+}
